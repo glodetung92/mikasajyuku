@@ -1,0 +1,385 @@
+# Translation of Themes - Tiny Framework in Japanese
+# This file is distributed under the same license as the Themes - Tiny Framework package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-02 03:23:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Tiny Framework\n"
+
+#. Description of the plugin/theme
+msgid "Tiny Framework theme was created with the future in mind and encompasses all the best features of the default WordPress themes in one place, adds full accessibility and Structured Data Markup with Schema.org microdata format support. Fast start is ensured with very extensive documentation! Tiny Framework features elegant responsive mobile-first design, HTML5 ready structure of Underscores, custom per-post headers, custom logo, three footer widgets, FontAwesome icon webfont and Google Fonts support. Web developers will enjoy integrated Theme Hook Alliance custom action hooks. It's all there, you have everything in one neat package. Along with the main theme you will find an example of a child theme - an easy way to start developing with child themes! Tiny Framework can be used as a learning tool or your own little web development \"framework\". With its unique \"Coding Tips System\" Tiny Framework helps to understand how to extend parent themes and build your own child themes, hacking them the way you want. You get the best coding examples from default WordPress themes and the best hacks from the child theme. Please read readme.txt for a quick start guide, tips and tricks. For more information please see: http://mtomas.com/1/"
+msgstr "Tiny Framework テーマは、今後を念頭に作られ、デフォルト WordPress テーマの最高の機能をすべて網羅し、さらに、完全なアクセシビリティとSchema.orgマイクロデータ・フォーマットのサポートを提供します。ファスト・スタートは、非常に豊富なドキュメントです！Tiny Framework の特徴は、Twenty Twelve 由来の優雅なモバイル・ファースト設計、Underscores 由来の HTML5 レディな構造、Twenty Fifteen 由来の多くの改善、カスタム記事ヘッダー及び３つのフッター・ウィジェット、FontAwesome 由来のアイコン web フォントのサポート、及び Google フォントのサポートです。web 開発者は、統合されたカスタム・アクション・フック「テーマ・フック連携」を楽しめるでしょう。そのすべてがこれ、１つのパッケージの中に、あります。テーマは、自身のホストサイト用の（スタンドアロンとしてもインストールできる）Jetpack プラグインで利用できる、WordPress.com のサイト・ロゴ機能をサポートしています。メインテーマと共に子テーマの例が入っています - 子テーマ開発を始める簡単な方法です！Tiny Framework は学習ツール、或いは独自の小規模 web 開発&ldquo;フレームワーク&rdquo;として利用できます。Tiny Framework は、&ldquo;コーディング・ティップス・システム&rdquo;を用いることで、親テーマを拡張して子テーマを開発する方法を理解し、望む方法でそれらをハックできるようにします。デフォルト WordPress テーマからは最高のコーディング例を、子テーマからは最高のハックを、得る事ができます。クィックスタート・ガイド、ティップス及びトリックについては readme.txt をお読みください。Tiny Framework - 学習及びサイト構築の為の、レスポンシヴでアクセッシブルな無料 WordPress テーマ<をご覧ください。詳細情報: http://mtomas.com/1/"
+
+#. Theme Name of the plugin/theme
+msgid "Tiny Framework"
+msgstr "Tiny Framework"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: post title.
+#: inc/template-tags.php:390 inc/template-tags.php:474
+msgid "...continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "...<span class=\"screen-reader-text\"> \"%s\"</span> を続けて読む"
+
+#. translators: %s: Name of current post. Only visible to screen readers.
+#: inc/template-tags.php:364
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\"> \"%s\"</span> を編集する"
+
+#. translators: %s: post title.
+#: inc/template-tags.php:124 inc/template-tags.php:223
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span> にコメントを残す"
+
+#. translators: %s: Theme name.
+#: functions.php:857
+msgid " and %s"
+msgstr "と %s"
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: functions.php:855
+msgid "Powered by %s"
+msgstr "Powered by %s"
+
+#. Template Name of the plugin/theme
+msgid "Links"
+msgstr "リンク"
+
+#. Template Name of the plugin/theme
+msgid "Full-width Page Template, No Sidebar"
+msgstr "全幅ページテンプレート、サイドバーなし"
+
+#. Template Name of the plugin/theme
+msgid "Front Page Template"
+msgstr "フロントページテンプレート"
+
+#. translators: %s: Post publishing date linked to post.
+#: template-parts/content-status.php:29
+msgid "Permalink to %s"
+msgstr "%s へのパーマリンク"
+
+#: template-parts/content-none.php:43
+msgid "Apologies, but no results were found. Please try again with some different keywords."
+msgstr "申し訳ありません。指定した単語で検索しましたが、見つかりませんでした。別のキーワードで検索してください。"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:30
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
+
+#: template-parts/content-none.php:19
+msgid "Nothing Found"
+msgstr "見つかりません"
+
+#: template-parts/content-link.php:27
+msgid "Link"
+msgstr "リンク"
+
+#. translators: %s: Post Author's name.
+#: template-parts/author-bio.php:44
+msgid "View all posts by %s"
+msgstr "%s の投稿をすべて表示"
+
+#. translators: %s: Post Author's name.
+#: template-parts/author-bio.php:30
+msgid "About <span itemprop=\"name\">%s</span>"
+msgstr "<span itemprop=\"name\">%s</span>について"
+
+#: single.php:37
+msgid "Previous article:"
+msgstr "前の記事: "
+
+#: single.php:35
+msgid "Next article:"
+msgstr "次の記事: "
+
+#. translators: %s: search query.
+#: search.php:27
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: inc/template-tags.php:512
+msgid "Next page"
+msgstr "次のページ"
+
+#: inc/template-tags.php:511
+msgid "Previous page"
+msgstr "前のページ"
+
+#: inc/template-tags.php:494 inc/template-tags.php:513
+msgid "Page"
+msgstr "ページ"
+
+#: inc/template-tags.php:490
+msgid "Pages:"
+msgstr "ページ:"
+
+#: inc/template-tags.php:338
+msgid "Reply"
+msgstr "返信"
+
+#: inc/template-tags.php:333
+msgid "Edit"
+msgstr "編集"
+
+#: inc/template-tags.php:328
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#. translators: 1: date, 2: time.
+#: inc/template-tags.php:322
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: inc/template-tags.php:316
+msgid "Post author"
+msgstr "投稿作成者"
+
+#: inc/template-tags.php:301
+msgid "(Edit)"
+msgstr "(編集)"
+
+#: inc/template-tags.php:301
+msgid "Pingback:"
+msgstr "ピンバック:"
+
+#: inc/template-tags.php:213
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "フルサイズ"
+
+#: inc/template-tags.php:202
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "タグ"
+
+#: inc/template-tags.php:194
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: inc/template-tags.php:191 inc/template-tags.php:199
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:155
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "フォーマット"
+
+#. translators: %s: comments number.
+#: template-parts/content.php:63
+msgid "Leave a comment"
+msgstr "コメントする"
+
+#: inc/template-tags.php:112 inc/template-tags.php:176
+msgctxt "Used before publish date."
+msgid "Published on"
+msgstr "公開日"
+
+#: inc/template-tags.php:91 inc/template-tags.php:185
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "作成者"
+
+#: inc/template-tags.php:68
+msgid "Author:"
+msgstr "作成者:"
+
+#: inc/template-tags.php:63
+msgid "Tag:"
+msgstr "タグ: "
+
+#: inc/template-tags.php:58
+msgid "Category:"
+msgstr "カテゴリー: "
+
+#: template-parts/content.php:63
+msgctxt "comments number"
+msgid "%"
+msgstr "%"
+
+#: template-parts/content.php:63
+msgctxt "comments number"
+msgid "1"
+msgstr "1"
+
+#: template-parts/content.php:23
+msgid "Featured article"
+msgstr "特集記事"
+
+#: inc/customizer.php:41
+msgid "Display Site Title &amp; Tagline"
+msgstr "サイト名とタグラインを表示"
+
+#: inc/customizer.php:38
+msgid "Site Title Color"
+msgstr "サイト名の色"
+
+#: inc/custom-header.php:63
+msgctxt "header image description"
+msgid "Third"
+msgstr "第3"
+
+#: inc/custom-header.php:58
+msgctxt "header image description"
+msgid "Second"
+msgstr "2番目"
+
+#: inc/custom-header.php:53
+msgctxt "header image description"
+msgid "First"
+msgstr "第1"
+
+#. translators: %s: WordPress version number.
+#: inc/back-compat.php:40 inc/back-compat.php:52 inc/back-compat.php:65
+msgid "Tiny Framework requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "Tiny Framework には WordPress バージョン 4.4 以上が必要です。現在のバージョンは %s です。アップグレードしてもう一度お試しください。"
+
+#. translators: %s: Link to Tiny Framework comprehensive guide.
+#: inc/admin-notice.php:22
+msgid "Thank you for using Tiny Framework! Please check out a valuable user guide: <a target=\"_blank\" href=\"%s\">How to use Tiny Framework and its child themes: a comprehensive guide</a>. Happy coding!"
+msgstr "Tiny Framework をご利用戴きありがとうございます！価値あるユーザーガイド<a target=\"_blank\" href=\"%s\">Tiny Framework 及び子テーマの使い方: 総合ガイド</a>をご覧ください。コーディングを楽しんで！"
+
+#: image.php:94
+msgid "Next image"
+msgstr "次の画像"
+
+#: image.php:94
+msgid "Previous image"
+msgstr "前の画像"
+
+#: header.php:102
+msgid "Menu"
+msgstr "メニュー"
+
+#: header.php:49
+msgid "Advanced features of this website require that you enable JavaScript in your browser. Thank you!"
+msgstr "このwebサイトの先進的な機能は、ブラウザーのJavaScriptを有効にする必要があります。Thank you！"
+
+#: header.php:43
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#. translators: %s: Theme name.
+#: functions.php:763
+msgid "Using %s"
+msgstr "%s を使用します。"
+
+#: functions.php:625
+msgid "Opens in a new window"
+msgstr "新しいウィンドウで開きます"
+
+#. translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:500
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:464
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:417
+msgid "Found at the bottom of every page as the footer. Left Side. Use Text widget with no Title."
+msgstr "すべてのページの下部に、フッター(左側部分)として表示されます。タイトルなしでテキスト・ウィジェットを使用します。"
+
+#: functions.php:415
+msgid "Footer Copyright Widget Area"
+msgstr "フッター著作権ウィジェット・エリア"
+
+#: functions.php:407
+msgid "Found at the bottom of every page (except 404s) as the footer. Right Side."
+msgstr "(404エラーを除く)すべてのページの下部に、フッター(右側部分)として表示されます"
+
+#: functions.php:405
+msgid "Third Footer Widget Area"
+msgstr "フッターウィジェットエリア 3"
+
+#: functions.php:397
+msgid "Found at the bottom of every page (except 404s) as the footer. Center."
+msgstr "(404エラーを除く)すべてのページの下部に、フッター(中央部分)として表示されます"
+
+#: functions.php:395
+msgid "Second Footer Widget Area"
+msgstr "フッターウィジェットエリア 2"
+
+#: functions.php:387
+msgid "Found at the bottom of every page (except 404s) as the footer. Left Side."
+msgstr "(404エラーを除く)すべてのページの下部に、フッター(左側部分)として表示されます"
+
+#: functions.php:385
+msgid "First Footer Widget Area"
+msgstr "フッターウィジェットエリア 1"
+
+#: functions.php:375
+msgid "Second Front Page Widget Area"
+msgstr "フロントページウィジェットエリア 2"
+
+#: functions.php:367 functions.php:377
+msgid "Appears when using the optional Front Page template with a page set as Static Front Page"
+msgstr "オプションフロントページテンプレートを固定フロントとして使う際に表示されます。"
+
+#: functions.php:365
+msgid "First Front Page Widget Area"
+msgstr "フロントページウィジェットエリア 1"
+
+#: functions.php:357
+msgid "Appears on posts and pages except the optional Front Page template, which has its own widgets"
+msgstr "独自ウィジェットを持つオプションフロントページテンプレートの投稿と固定ページに表示されます。"
+
+#: functions.php:355 sidebar-front.php:26 sidebar.php:22
+msgid "Main Sidebar"
+msgstr "メインサイドバー"
+
+#: functions.php:206 inc/menu-social.php:14 inc/menu-social.php:16
+msgid "Social Links Menu"
+msgstr "﻿ソーシャルリンクメニュー"
+
+#: functions.php:205 header.php:99 header.php:101
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: footer.php:23
+msgid "Footer Content"
+msgstr "フッター・コンテンツ"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#. translators: %1$s: smiley
+#: 404.php:41
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "月別アーカイブを探してみてください %1$s"
+
+#: 404.php:33 template-parts/content-none.php:49
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: 404.php:28
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "おっと、失礼しました。"
+
+#. Author URI of the plugin/theme
+msgid "http://mtomas.com/"
+msgstr "http://mtomas.com/"
+
+#. Author of the plugin/theme
+msgid "Tomas Mackevicius"
+msgstr "Tomas Mackevicius"
+
+#. Theme URI of the plugin/theme
+msgid "http://mtomas.com/1/"
+msgstr "http://mtomas.com/1/"

@@ -1,0 +1,147 @@
+# Translation of Themes - Author Landing Page in Japanese
+# This file is distributed under the same license as the Themes - Author Landing Page package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-11 02:39:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Author Landing Page\n"
+
+#. Theme Name of the theme
+msgid "Author Landing Page"
+msgstr "Author Landing Page"
+
+#. translators: If there are characters in your language that are not supported
+#. by PT Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:32
+msgctxt "PT Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Quicksand, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:38
+msgctxt "Quicksand font: on or off"
+msgid "on"
+msgstr "on"
+
+#: inc/parent-functions.php:178
+msgid "Rara Theme "
+msgstr "Rara Theme "
+
+#: inc/parent-functions.php:177
+msgid "Author Landing Page | Developed By "
+msgstr "Author Landing Page | Developed By "
+
+#: inc/parent-functions.php:172
+msgid "Y"
+msgstr "Y年"
+
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "検索キーワードに一致するものが見つかりませんでした。 別のキーワードで試してみてください。"
+
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか ? <a href=\"%1$s\">ここから始めましょう</a>。"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:39 template-parts/content.php:60
+msgid "Read More"
+msgstr "続きを読む"
+
+#: template-parts/content.php:54 template-parts/content-page.php:25
+msgid "Pages:"
+msgstr "固定ページ:"
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr "何も見つかりませんでした"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: inc/parent-functions.php:179
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: inc/parent-functions.php:126
+msgid "Demo & Documentation"
+msgstr "デモとドキュメンテーション"
+
+#: inc/parent-functions.php:10 inc/parent-functions.php:19
+msgid "Banner Section"
+msgstr "バナーセクション"
+
+#: inc/parent-functions.php:55
+msgid "Select Post"
+msgstr "投稿を選択"
+
+#: inc/parent-functions.php:179
+msgid "Powered by %s "
+msgstr "Powered by %s "
+
+#: inc/parent-functions.php:37
+msgid "Enable Banner Section"
+msgstr "バナーセクションを有効化"
+
+#: inc/parent-functions.php:171
+msgid "Copyright &copy; "
+msgstr "Copyright &copy; "
+
+#: functions.php:87
+msgid "Default Header Image"
+msgstr "デフォルトのヘッダー画像"
+
+#. translators: 1: string, 2: preview url, 3: string
+#: inc/parent-functions.php:141
+msgid "Demo Link : "
+msgstr "デモリンク:"
+
+#. translators: 1: string, 2: documentation url, 3: string
+#: inc/parent-functions.php:146
+msgid "Documentation Link : "
+msgstr "ドキュメンテーションリンク:"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:36
+msgid "Edit %s"
+msgstr "編集 %s"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:48
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s 続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: 1: string, 2: preview url, 3: string
+#. translators: 1: string, 2: documentation url, 3: string
+#: inc/parent-functions.php:141 inc/parent-functions.php:146
+msgid "Click here."
+msgstr "ここをクリックしてください。"
+
+#: inc/parent-functions.php:74
+msgid "Banner Section Button Text"
+msgstr "バナーセクションのボタンテキスト"
+
+#: inc/parent-functions.php:92
+msgid "Banners Section Button Link"
+msgstr "バナーセクションのボタンリンク"
+
+#. Author of the theme
+msgid "Rara Theme"
+msgstr "Rara Theme"
+
+#. Author URI of the theme
+msgid "https://rarathemes.com/"
+msgstr "https://rarathemes.com/"
+
+#. Theme URI of the theme
+msgid "https://rarathemes.com/wordpress-themes/author-landing-page/"
+msgstr "https://rarathemes.com/wordpress-themes/author-landing-page/"

@@ -1,0 +1,673 @@
+/*
+Theme Name: Fabify
+Theme URI: https://speciatheme.com/fabify-free/
+Author: Specia
+Author URI: https://speciatheme.com/
+Description: Fabify is a trending WordPress theme with lots of powerful features, instantly giving a professional look to your online presence. It fits for business, portfolio, food & restaurant, gym & fitness, spa salon, medical practitioner & hospitals, landing pages, product pages, corporate business, digital agency, product showcase, financial advisor, accountant, law firm, wealth advisor, photography, personal, and any eCommerce stores. Fabify premium version provides you more than 10 different designs and supports popular plugins WPML, Polylang, WooCommerce, Contact Form 7, Revolution Slider, Elementor, Visual Composer, WP-Forms, Ninja Forms, Jetpack, WP-Featherlight, Give (WordPress Donation Plugin), Gravity Forms, Yoast SEO and many more. View the demo of Fabify Premium https://demo.speciatheme.com/pro/?theme=fabify
+Template: specia
+Version: 3.0.70
+Tested up to: 5.8
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: fabify
+Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, entertainment, portfolio, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+
+.entry-content a, .comment-content a, .widget_text a, strong a, blockquote a, code a, p a{
+    color: #1490d7;
+    text-decoration: underline;
+}
+
+.entry-content .more-link {
+    text-decoration: none;
+}
+
+section.footer-copyright p a {
+    color: #1490d7;
+}
+
+.sidebar .widget input[type="submit"]:hover,
+.sidebar .widget input[type="submit"]:focus,
+.sidebar .wp-block-search .wp-block-search__button:hover,
+.sidebar .wp-block-search .wp-block-search__button:focus {
+    background: #1490d7;
+    border-color: #1490d7;
+}
+
+.features-version-one .feature-box-info h4, .features-version-one .feature-box-info h4 a {
+    color: #1490d7;
+}
+
+.post_date {
+    background: #1490d7;
+}
+
+.top-scroll {
+    background: #1490d7;
+}
+
+/*---------------------------------------------
+    Header MagZee (nav-fabify)
+---------------------------------------------*/
+@media (min-width: 992px) {
+    .nav-fabify .navigator-wrapper {
+        margin-bottom: -30px;
+    }
+}
+
+.nav-fabify .header-widget-info {
+    border-bottom: 0;
+}
+
+.nav-fabify .navigation {
+    padding: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: -30px;
+    background: none;
+}
+
+.nav-fabify .navigation .theme-menu {
+    padding: 0 0 0 5px;
+}
+
+.nav-fabify .menu-right {
+    flex: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-fabify .navigation .menubar .menu-wrap > li > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li.dropdown > a:after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    height: 2px;
+    width: 0;
+    left: 50%;
+    border: 0;
+    -webkit-transform: translate(-50%,0) translateZ(0);
+    transform: translate(-50%,0) translateZ(0);
+    -webkit-transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+}
+
+.nav-fabify .navigation .menubar .menu-wrap > li.dropdown:hover > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li.dropdown:focus > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li:hover > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li.active > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li.dropdown.focus > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li.focus > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li:focus > a:after {
+    width: 15px;
+}
+
+.nav-fabify .menubar .menu-wrap > li > a {
+    line-height: 60px;
+    border-radius: 0;
+}
+
+.nav-fabify .menubar .menu-wrap > li > a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: all .3s cubic-bezier(.645,.045,.355,1);
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+
+.nav-fabify .menubar .menu-wrap > li:hover > a,
+.nav-fabify .menubar .menu-wrap > li:focus > a,
+.nav-fabify .menubar .menu-wrap > li.focus > a,
+.nav-fabify .menubar .menu-wrap > li.active > a {
+    color: #fff;
+}
+
+.nav-fabify .navigation .menubar .menu-wrap > li.dropdown:hover > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li.dropdown:focus > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li:hover > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li.active > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li.dropdown.focus > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li.focus > a:after,
+.nav-fabify .navigation .menubar .menu-wrap > li:focus > a:after {
+    background: #fff;
+}
+
+.nav-fabify .navigation .search-field {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.nav-fabify .navigation .search-field,
+.nav-fabify .navigation .search-submit {
+    color: #fff;
+}
+
+.post_date h6 {
+    color: #ffffff !important;
+}
+
+.breadcrumb.fabify .background-overlay  {
+    background: #283645;
+    opacity: 9;
+}
+.breadcrumb.fabify h2, .page-breadcrumb li {
+    color: #ffffff;
+}
+
+/*---------------------------------------
+    Slider Six
+-----------------------------------------*/
+
+.slider-section-six .owl-carousel:hover .owl-prev {
+    left: 12px;
+}
+
+.slider-section-six .owl-carousel:hover .owl-prev {
+    right: 12px;
+}
+
+.slider-section-six .owl-theme .owl-controls .owl-nav [class*=owl-] {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 60px;
+    height: 60px;
+    line-height: 59px;
+    border-width: 2px;
+    border-radius: 100%;
+}
+
+.slider-section-six .owl-theme .owl-controls .owl-nav [class*=owl-] i {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.slider-section-six .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+    background-color: rgb(0 0 0 / 60%);
+}
+
+.slider-section-six .owl-theme .owl-controls .owl-nav [class*=owl-]:hover i {
+    color: #00a3c8
+}
+
+.slider-section-six .specia-content h6 {
+    position: relative;
+    display: inline-block;
+}
+
+.slider-section-six .specia-slider.text-center .specia-content h6 {
+    padding-bottom: 15px;
+    margin-bottom: 7px;
+}
+
+.slider-section-six .specia-content h6:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -28px;
+    width: 30px;
+    height: 3px;
+}
+
+.slider-section-six .specia-slider.text-center .specia-content h6:before {
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: auto;
+    width: 50px;
+    bottom: 0;
+}
+
+.slider-section-six .specia-slider.text-right .specia-content h6:before {
+    right: auto;
+    left: -28px;
+}
+
+@media (max-width: 600px) {
+    .slider-section-six .owl-theme .owl-controls .owl-nav [class*=owl-] {
+        width: 40px;
+        height: 40px;
+        line-height: 39px;
+    }
+}
+
+/*---------------------------------------
+    Service Fabify  
+-----------------------------------------*/
+.service-fabify .service-box {
+    position: relative;
+    text-align: center;
+    z-index: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 30px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    -webkit-box-shadow: 0 0 40px rgb(82 85 90 / 10%);
+    box-shadow: 0 0 40px rgb(82 85 90 / 10%);
+}
+
+.service-fabify .service-box:hover,
+.service-fabify .service-box:focus-within {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.service-fabify .specia-icon {
+    position: relative;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background: none;
+    color: #222222;
+}
+
+.service-fabify .specia-icon:before {
+    font-size: 60px;
+}
+
+.service-fabify .service-title a {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    position: relative;
+}
+
+.service-fabify .service-title a:after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #dddddd;
+    width: 50px;
+    margin: auto;
+}
+
+.service-fabify .service-description {
+    margin-top: 25px;
+}
+
+.service-fabify .service-description a.more-link {
+    margin-top: 20px;
+}
+
+.service-fabify .service-box:hover .specia-icon:before,
+.service-fabify .service-box:focus-within .specia-icon:before,
+.service-fabify .service-box:hover .service-title a,
+.service-fabify .service-box:focus-within .service-title a,
+.service-fabify .service-box:hover .service-description p,
+.service-fabify .service-box:focus-within .service-description p,
+.service-fabify .service-box:hover a.more-link,
+.service-fabify .service-box:focus-within a.more-link {
+    color: #ffffff;
+}
+
+.service-fabify .service-box a.more-link:hover,
+.service-fabify .service-box a.more-link:focus {
+    color: #ffffff;
+    background: none;
+    letter-spacing: .75px;
+}
+
+.service-fabify .service-box .service-description a.more-link:after {
+    display: none;
+}
+
+.service-fabify .service-box:hover .specia-icon-effect-8 .specia-icon,
+.service-fabify .service-box:focus-within .specia-icon-effect-8 .specia-icon {
+    background: none;
+}
+
+.service-fabify .service-icon-box {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.service-fabify .icon-bg img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    width: auto;
+    margin: 0 auto;
+    display: inline-block;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.service-fabify .box-shape img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    display: inline-block;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.service-fabify .box-shape img:nth-child(2) {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.service-fabify .service-box:hover .box-shape img:nth-child(1),
+.service-fabify .service-box:focus-within .box-shape img:nth-child(1) {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.service-fabify .service-box:hover .box-shape img:nth-child(2),
+.service-fabify .service-box:focus-within .box-shape img:nth-child(2) {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*---------------------------------------
+    Fabify Version
+-----------------------------------------*/
+.call-to-action-six .background-overlay {
+    overflow: hidden;
+}
+.call-to-action-six h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+    padding-top: 0;
+    margin: 0 0 6px;
+}
+.call-to-action-six p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.call-to-action-six h2 span {
+    color: #00a3c8;
+}
+.cta-img-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    min-height: 176px;
+}
+.call-to-action-six .cta-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: calc(100% + 250px);
+    height: 100%;
+    min-height: 176px;
+    transform: skewX(-20deg);
+    padding: 0 25px;
+    overflow: hidden;
+    z-index: -1;
+}
+.call-to-action-six .cta-bg div {
+    width: 100%;
+    height: 100%;
+    min-height: 176px;
+    background-size: cover;
+    background-position: top left;
+    background-color: #222222;
+    background-blend-mode: overlay;
+}
+.call-to-action-six .call-btn-1 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    margin-top: 0;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+.call-to-action-six .call-btn-1:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+     -webkit-transition: all 200ms ease-out;
+       -moz-transition: all 200ms ease-out;
+         -o-transition: all 200ms ease-out;
+            transition: all 200ms ease-out;
+}
+.call-to-action-six .call-btn-1.bt-effect-2:before {
+    background-color: #ffffff;
+}
+.call-to-action-six .call-icon-box {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+}
+.call-to-action-six .call-title {
+    display: inline-block;
+    border-bottom: 1px solid rgb(255 255 255 / 0.5);
+    margin-bottom: 5px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.call-to-action-six .call-phone {
+    font-size: 20px;
+}
+.call-to-action-six .call-phone a:not(:hover):not(:focus) {
+    border-bottom-color: transparent;
+}
+.call-to-action-six .cta-or {
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 15px 0 12px;
+}
+
+@media (max-width: 991px) {
+    .call-to-action-six .col-md-6.padding-top-25.padding-bottom-25 {
+        z-index: 1;
+    }
+    .call-to-action-six[class*='call-to-action-'] p {
+        margin-bottom: 0;
+    }
+    .call-to-action-six .cta-img-overlay {
+        width: 100%;
+        min-height: auto;
+        justify-content: flex-start;
+        position: unset;
+        padding: 15px 15px 30px;
+    }
+    .call-to-action-six .cta-bg {
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        transform: skewX(0deg);
+        padding: 0;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 600px) {
+    .call-to-action-six .cta-or {
+        display: none;
+    }
+    .call-to-action-six .call-wrapper {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+
+figure.effect-portfolio7 img {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+figure.effect-portfolio7:hover img,
+figure.effect-portfolio7:focus-within img {
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.effect-portfolio7 figcaption {
+    padding: 3rem 4.5rem;
+}
+
+figure.effect-portfolio7 figcaption::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    content: '';
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+figure.effect-portfolio7 h2 {
+    transform: translateY(100%);
+}
+
+figure.effect-portfolio7:hover h2,
+figure.effect-portfolio7:focus-within h2 {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+figure.effect-portfolio7 figcaption::before,
+figure.effect-portfolio7 p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-portfolio7 p {
+    margin: 0 auto;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+figure.effect-portfolio7:hover figcaption::before,
+figure.effect-portfolio7:focus-within figcaption::before,
+figure.effect-portfolio7:hover p,
+figure.effect-portfolio7:focus-within p {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+@media screen and (max-width: 50em) {
+    .content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .grid figure {
+        display: inline-block;
+        float: none;
+        margin: 10px auto;
+        width: 100%;
+    }
+}
+
+/*---------------------------------------
+    Top Scroller
+-----------------------------------------*/
+.top-scroll {
+    bottom: 2%;
+    display: none;
+    height: 40px;
+    opacity: 1;
+    overflow: hidden;
+    position: fixed;
+    right: 12px;
+    text-align: center;
+    width: 40px;
+    z-index: 9999;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    animation: none;
+}
+.top-scroll i {
+    color: #ffffff;
+}
+@media only screen and (min-device-width: 200px) and (max-device-width: 480px) {
+    .search-cart {
+        text-align: center;
+    }
+    .textwidget .woocommerce .products ul, .woocommerce ul.products {
+    padding: 0 17px;
+    }
+}
+
+/*---------------------------------------
+    Search Result
+-----------------------------------------*/ 
+
+.page-wrapper .posts-navigation a {
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px 24px;
+    border-radius: 30px;
+    display: table-cell;
+    float: left;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+
+.page-wrapper .posts-navigation a:hover {
+    color: #fff;
+}
+
+.page-wrapper .posts-navigation .nav-next {
+    float: right;
+}
+
+.wp-block-table figcaption {
+    text-align: center;
+}
+
+.wp-block-image figcaption {
+    text-align: center;
+    font-weight: 600;
+}
+
+.wp-block-loginout a{
+	text-decoration:none;
+}
+
+
+.entry-content .more-link:hover,
+.entry-content .more-link:focus {
+    color:#ffffff;
+}
+
+.select2-container--default .select2-selection--single {
+    min-height: 2.35em;
+}

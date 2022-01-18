@@ -1,0 +1,199 @@
+# Translation of Plugins - Spam protection, AntiSpam, FireWall by CleanTalk - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Spam protection, AntiSpam, FireWall by CleanTalk - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-18 08:17:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Spam protection, AntiSpam, FireWall by CleanTalk - Stable (latest release)\n"
+
+#: inc/cleantalk-admin.php:245 inc/cleantalk-admin.php:624
+#: inc/cleantalk-admin.php:750
+msgid "Settings"
+msgstr "設定"
+
+#: inc/cleantalk-settings.php:809
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php:38
+msgid "Username"
+msgstr "ユーザー名"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:30
+msgid "Author"
+msgstr "登録者"
+
+#: inc/cleantalk-settings.php:1016
+msgid "Access key"
+msgstr "アクセスキー"
+
+#: inc/cleantalk-settings.php:253
+msgid "Automatically delete spam comments"
+msgstr "スパムコメントを自動的に削除"
+
+#. Author of the plugin
+msgid "СleanTalk <welcome@cleantalk.org>"
+msgstr "СleanTalk <welcome@cleantalk.org>"
+
+#: inc/cleantalk-widget.php:91
+msgid "Title:"
+msgstr "タイトル: "
+
+#: inc/cleantalk-settings.php:128
+msgid "Advanced settings"
+msgstr "高度な設定"
+
+#: inc/cleantalk-admin.php:281 inc/cleantalk-admin.php:666
+#: inc/cleantalk-admin.php:767 inc/cleantalk-settings.php:787
+msgid "Support"
+msgstr "サポート"
+
+#: inc/cleantalk-widget.php:25
+msgid "CleanTalk widget"
+msgstr "CleanTalk ウィジェット"
+
+#: inc/cleantalk-widget.php:22
+msgid "CleanTalk Widget"
+msgstr "CleanTalk ウィジェット"
+
+#: inc/cleantalk-admin.php:280
+msgid "FAQ"
+msgstr "よくある質問"
+
+#: lib/Cleantalk/ApbctWP/AdminNotices.php:163
+msgid "next year"
+msgstr "来年"
+
+#: inc/cleantalk-settings.php:977
+msgid "Protection is active"
+msgstr "プロテクションはアクティブです"
+
+#: inc/cleantalk-settings.php:979
+msgid "Registration forms"
+msgstr "登録フォーム"
+
+#: inc/cleantalk-settings.php:139
+msgid "Comments form"
+msgstr "コメントフォーム"
+
+#: inc/cleantalk-settings.php:143 inc/cleantalk-settings.php:981
+msgid "Contact forms"
+msgstr "お問い合わせフォーム"
+
+#: inc/cleantalk-settings.php:147 inc/cleantalk-settings.php:982
+msgid "Custom contact forms"
+msgstr "カスタムお問い合わせフォーム"
+
+#: inc/cleantalk-settings.php:304
+msgid "Check all post data"
+msgstr "すべての投稿データを確認する"
+
+#: inc/cleantalk-settings.php:410
+msgid "Show statistics in admin bar"
+msgstr "管理バーに統計を表示"
+
+#: inc/cleantalk-settings.php:291
+msgid "Use AJAX for JavaScript check"
+msgstr "JavaScript チェックに AJAX を使用"
+
+#: inc/cleantalk-settings.php:162
+msgid "Protect external forms"
+msgstr "外部フォームを保護する"
+
+#: inc/cleantalk-settings.php:764
+msgid "Click here to get anti-spam statistics"
+msgstr "スパム対策の統計情報を入手するには、ここをクリックしてください。"
+
+#: inc/cleantalk-settings.php:254
+msgid "Delete spam comments older than %d days."
+msgstr "%d日以上前のスパムコメントを削除します。"
+
+#: inc/cleantalk-admin.php:595 inc/cleantalk-settings.php:112
+msgid "SpamFireWall"
+msgstr "SpamFireWall"
+
+#: inc/cleantalk-settings.php:113
+msgid "This option allows to filter spam bots before they access website. Also reduces CPU usage on hosting server and accelerates pages load time."
+msgstr "このオプションを使用すると、サイトにアクセスする前にスパムボットをフィルタリングできます。また、ホスティングサーバーの CPU 使用率を削減し、ページの読み込み時間を短縮します。"
+
+#: inc/cleantalk-settings.php:726
+msgid "Plugin Homepage at"
+msgstr "プラグインホームページ"
+
+#: inc/cleantalk-settings.php:728
+msgid "Use s@cleantalk.org to test plugin in any WordPress form."
+msgstr "s@cleantalk.org を使用して、WordPress でプラグインをテストしてください。"
+
+#: lib/Cleantalk/ApbctWP/AdminNotices.php:118
+msgid "Unable to get Access key automatically: %s"
+msgstr "アクセスキーを自動的に取得できません: %s"
+
+#: lib/Cleantalk/ApbctWP/AdminNotices.php:131
+msgid "Please enter Access Key in %s settings to enable anti spam protection!"
+msgstr "%sの設定にアクセスキーを入力してスパム対策を有効にしてください。"
+
+#: lib/Cleantalk/ApbctWP/AdminNotices.php:144
+msgid "%s trial period ends, please upgrade to %s!"
+msgstr "%s試用期間は終了します。%sにアップグレードしてください。"
+
+#: lib/Cleantalk/ApbctWP/AdminNotices.php:162
+msgid "RENEW ANTI-SPAM"
+msgstr "アンチスパムの更新"
+
+#: lib/Cleantalk/ApbctWP/AdminNotices.php:165
+msgid "Please renew your anti-spam license for %s."
+msgstr "%sためにアンチスパムライセンスを更新してください。"
+
+#: inc/cleantalk-find-spam.php:8 inc/cleantalk-find-spam.php:13
+msgid "Check for spam"
+msgstr "スパムをチェック"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:90
+msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
+msgstr "<a href=\"%1$s\">%3$sに%2$s</a>に投稿されました"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:91
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:125
+msgid "View Post"
+msgstr "投稿を見る"
+
+#: inc/cleantalk-admin.php:363 inc/cleantalk-find-spam.php:13
+msgid "Find spam comments"
+msgstr "スパムのコメントを探す"
+
+#: inc/cleantalk-public-integrations.php:961 inc/cleantalk-public.php:707
+#: inc/cleantalk-public.php:755
+msgid "Spam protection"
+msgstr "スパム保護"
+
+#: inc/cleantalk-public-integrations.php:2240
+msgid "Comment approved. Anti-spam by CleanTalk."
+msgstr "コメントは承認されました。Anti-spam by CleanTalk。"
+
+#: inc/cleantalk-public.php:1003
+msgid "Attention, please!"
+msgstr "注目してください！"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/UsersScan.php:66
+msgid "Delete all users from list"
+msgstr "リストからすべてのユーザーを削除"
+
+#: inc/cleantalk-find-spam.php:8
+msgid "Find spam users"
+msgstr "スパムのユーザーを探す"
+
+#: inc/cleantalk-widget.php:35 inc/cleantalk-widget.php:86
+msgid "Spam blocked"
+msgstr "スパムブロック"
+
+#: inc/cleantalk-widget.php:74
+msgid "blocked by"
+msgstr "ブロックされました"

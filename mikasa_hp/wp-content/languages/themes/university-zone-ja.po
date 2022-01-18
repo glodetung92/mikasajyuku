@@ -1,0 +1,244 @@
+# Translation of Themes - University Zone in Japanese
+# This file is distributed under the same license as the Themes - University Zone package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-26 00:45:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - University Zone\n"
+
+#. Theme Name of the theme
+msgid "University Zone"
+msgstr "University Zone"
+
+#: inc/parent-functions.php:60
+msgid "Phone Number"
+msgstr "電話番号"
+
+#: inc/parent-functions.php:65
+msgid "E-Mail"
+msgstr "メールアドレス"
+
+#: header.php:25
+msgid "Skip to content (Press Enter)"
+msgstr "コンテンツへスキップ (Enter を押す)"
+
+#: sections/section-blog.php:13 sections/section-welcome.php:33
+#: sections/section-slider.php:12 sections/section-courses.php:51
+msgid "Read More"
+msgstr "続きを読む"
+
+#: inc/parent-functions.php:236 inc/parent-functions.php:238
+#: inc/parent-functions.php:240 inc/parent-functions.php:242
+#: inc/parent-functions.php:244
+msgid "Click here"
+msgstr "ここをクリック"
+
+#: sections/section-choose.php:43
+msgid "Learn More"
+msgstr "さらに詳しく"
+
+#: footer.php:47
+msgid "Y"
+msgstr "Y年"
+
+#: inc/parent-functions.php:203
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/parent-functions.php:199
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/parent-functions.php:201
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/parent-functions.php:211
+msgid "VK"
+msgstr "VK"
+
+#: inc/parent-functions.php:205
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/parent-functions.php:197
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:55
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: inc/parent-functions.php:209
+msgid "OK"
+msgstr "OK"
+
+#: functions.php:46
+msgid "Default Header Image"
+msgstr "デフォルトのヘッダー画像"
+
+#: inc/child-functions.php:250
+msgid "Static/Video CTA Banner"
+msgstr "静的/動画 CTA バナー"
+
+#: inc/child-functions.php:249
+msgid "Disable Banner Section"
+msgstr "バナーセクションを無効化"
+
+#: inc/child-functions.php:246
+msgid "Choose banner as static image/video."
+msgstr "静的画像または動画バナーを選択します。"
+
+#: inc/child-functions.php:245
+msgid "Banner Options"
+msgstr "バナー設定"
+
+#: inc/child-functions.php:89
+msgid "Header Settings"
+msgstr "ヘッダー設定"
+
+#: inc/child-functions.php:397
+msgid " -- Choose -- "
+msgstr " -- 選択 -- "
+
+#: inc/parent-functions.php:242
+msgid "Support Ticket"
+msgstr "サポートチケット"
+
+#: inc/parent-functions.php:240
+msgid "Theme info"
+msgstr "テーマ情報"
+
+#: inc/parent-functions.php:244
+msgid "More WordPress Themes"
+msgstr "WordPress のテーマをもっと見る"
+
+#: inc/parent-functions.php:207
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/child-functions.php:218
+msgid "Banner Section"
+msgstr "バナーセクション"
+
+#: footer.php:47
+msgid "Copyright &copy;"
+msgstr "Copyright &copy; "
+
+#: inc/parent-functions.php:238
+msgid "Theme Demo"
+msgstr "テーマデモ"
+
+#: inc/parent-functions.php:213
+msgid "Xing"
+msgstr "Xing"
+
+#: sections/section-blog.php:57
+msgid "g:i A"
+msgstr "g:i A"
+
+#: sections/section-blog.php:56 sections/section-blog.php:108
+msgid "j M, Y"
+msgstr "j M, Y"
+
+#: footer.php:55
+msgid "Powered by %s."
+msgstr "Powered by %s."
+
+#: footer.php:51
+msgid "University Zone | Developed By"
+msgstr "University Zone | Developed By"
+
+#: inc/parent-functions.php:247
+msgid "About University Zone"
+msgstr "University Zone について"
+
+#: inc/parent-functions.php:236
+msgid "Theme Documentation"
+msgstr "テーマドキュメンテーション"
+
+#: inc/parent-functions.php:225
+msgid "Demo and Documentation"
+msgstr "デモとドキュメンテーション"
+
+#: inc/child-functions.php:351
+msgid "Featured Course Post Six"
+msgstr "おすすめコース投稿6"
+
+#: inc/child-functions.php:335
+msgid "Featured Course Post Five"
+msgstr "おすすめコース投稿5"
+
+#: inc/child-functions.php:314
+msgid "Link Url"
+msgstr "リンク URL"
+
+#: inc/child-functions.php:296
+msgid "Link Label"
+msgstr "リンクラベル"
+
+#: inc/child-functions.php:277
+msgid "Banner Title"
+msgstr "バナータイトル"
+
+#: inc/child-functions.php:251
+msgid "Post Banner"
+msgstr "投稿バナー"
+
+#: inc/child-functions.php:203
+msgid "Enable Search Form"
+msgstr "検索フォームを有効化"
+
+#: inc/child-functions.php:187
+msgid "%s You can edit the Header Search Settings from here"
+msgstr "%s ここからヘッダー検索の設定を編集できます。"
+
+#: inc/child-functions.php:166
+msgid "Open In New Tab"
+msgstr "新しいタブで開く"
+
+#: inc/child-functions.php:149
+msgid "CTA URL"
+msgstr "CTA URL"
+
+#: inc/child-functions.php:132
+msgid "CTA Label"
+msgstr "CTA ラベル"
+
+#: inc/child-functions.php:108
+msgid "%s You can edit the Button with below settings."
+msgstr "%s 以下の設定でボタンを編集できます。"
+
+#: sections/section-info.php:44 sections/section-slider.php:8
+#: inc/child-functions.php:117 inc/child-functions.php:286
+#: inc/child-functions.php:415 inc/parent-functions.php:13
+#: inc/parent-functions.php:104
+msgid "Apply Now"
+msgstr "今すぐ申し込む"
+
+#: functions.php:134
+msgid "Gallery Image"
+msgstr "ギャラリー画像"
+
+#: sections/section-slider.php:7 inc/child-functions.php:262
+#: inc/child-functions.php:419
+msgid "Better Education for a Better World"
+msgstr "より良い世界のためのより良い教育"
+
+#. Author URI of the theme
+msgid "https://rarathemes.com/"
+msgstr "https://rarathemes.com/"
+
+#. Author of the theme
+#: footer.php:53
+msgid "Rara Theme"
+msgstr "Rara Theme"
+
+#. Theme URI of the theme
+msgid "https://rarathemes.com/wordpress-themes/university-zone/"
+msgstr "https://rarathemes.com/wordpress-themes/university-zone/"

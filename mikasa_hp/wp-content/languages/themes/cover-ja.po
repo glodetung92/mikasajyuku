@@ -1,0 +1,236 @@
+# Translation of Themes - Cover in Japanese
+# This file is distributed under the same license as the Themes - Cover package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-24 11:27:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Cover\n"
+
+#. Description of the plugin/theme
+msgid "A content-driven blogging theme for WordPress."
+msgstr "WordPress コンテンツ駆動型のブログテーマ。"
+
+#. Theme Name of the plugin/theme
+msgid "Cover"
+msgstr "Cover"
+
+#: template-parts/algolia/autocomplete.php:53
+msgid "No results matched your query "
+msgstr "クエリーと一致する結果はありません"
+
+#: template-parts/algolia/autocomplete.php:43
+msgid "Powered by"
+msgstr "Powered by"
+
+#: inc/template-tags.php:42
+msgid "Next post"
+msgstr "次の投稿へ"
+
+#: inc/template-tags.php:30
+msgid "Previous post"
+msgstr "過去の投稿へ"
+
+#. Template Name of the plugin/theme
+msgid "No Header"
+msgstr "ヘッダーなし"
+
+#. Translators: "time ago" relative date.
+#: inc/template-tags.php:79
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "%s前"
+
+#: functions.php:108
+msgid "Footer Widgets"
+msgstr "フッターウィジェット"
+
+#: template-parts/cover-404.php:12
+msgid "Not found"
+msgstr "見つかりませんでした"
+
+#: functions.php:98
+msgid "Search Widgets"
+msgstr "ウィジェットを検索"
+
+#: inc/customizer.php:140
+msgid "Show Featured Image"
+msgstr "アイキャッチ画像を表示する"
+
+#: inc/customizer.php:72
+msgid "Cover View Options"
+msgstr "カバービュー設定"
+
+#: inc/customizer.php:101
+msgid "Overlay Color"
+msgstr "オーバーレイの色"
+
+#: inc/customizer.php:126
+msgid "Columns"
+msgstr "カラム"
+
+#: inc/customizer.php:114
+msgid "Post Listing Style"
+msgstr "投稿リストのスタイル"
+
+#: searchform.php:12
+msgid "Search..."
+msgstr "検索…"
+
+#. Translators: the link, avatar image, and name of the author.
+#: inc/template-tags.php:87
+msgid "<span class=\"posted-on\">%1$s%2$s %3$s</span>"
+msgstr "<span class=\"posted-on\">%1$s%2$s %3$s</span>"
+
+#: inc/template-tags.php:26
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#: inc/customizer.php:91
+msgid "Link Color"
+msgstr "リンク色"
+
+#: inc/customizer.php:80
+msgid "Header Color"
+msgstr "ヘッダー色"
+
+#. translators: used between list items, there is a space after the comma
+#: template-parts/content-summary.php:30 template-parts/cover-post.php:53
+msgid ", "
+msgstr "、"
+
+#: template-parts/cover-archive.php:67
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: template-parts/cover-archive.php:61
+msgid "&quot;"
+msgstr "&quot;"
+
+#: template-parts/cover-archive.php:61
+msgid "Results for &quot;"
+msgstr "結果: "
+
+#: template-parts/cover-archive.php:58
+msgid "Chats"
+msgstr "チャット"
+
+#: template-parts/cover-archive.php:55
+msgid "Audios"
+msgstr "音声"
+
+#: template-parts/cover-archive.php:52
+msgid "Statuses"
+msgstr "近況"
+
+#: template-parts/cover-archive.php:49
+msgid "Links"
+msgstr "リンク"
+
+#: template-parts/cover-archive.php:46
+msgid "Quotes"
+msgstr "引用"
+
+#: template-parts/cover-archive.php:43
+msgid "Videos"
+msgstr "動画"
+
+#: template-parts/cover-archive.php:40
+msgid "Images"
+msgstr "画像"
+
+#: template-parts/cover-archive.php:37
+msgid "Galleries"
+msgstr "ギャラリー"
+
+#: template-parts/cover-archive.php:34
+msgid "Asides"
+msgstr "アサイド"
+
+#: functions.php:88
+msgid "Overlay Widgets"
+msgstr "オーバーレイウィジェット"
+
+#: functions.php:51
+msgid "Social Menu (Footer)"
+msgstr "ソーシャルメニュー (フッター)"
+
+#: functions.php:48
+msgid "Social Menu (Overlay)"
+msgstr "ソーシャルメニュー (オーバーレイ)"
+
+#: functions.php:45
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#. Translators: placeholders are links to WordPress.org and the theme.
+#: footer.php:21
+msgid "Powered by %1$s and %2$s"
+msgstr "Powered by %1$s and %2$s"
+
+#. Translators: the name of the tag.
+#: template-parts/content-single.php:33
+msgid "View all posts in %s"
+msgstr "%s の投稿をすべて表示"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:39
+msgid "<i class=\"fa fa-pencil\"></i> Edit"
+msgstr "<i class=\"fa fa-pencil\"></i> 編集"
+
+#: template-parts/content-page.php:15 template-parts/content-single.php:16
+#: template-parts/content-summary.php:54
+msgid "Pages:"
+msgstr "固定ページ:"
+
+#: template-parts/content-none.php:25
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "こちらには何もありません。検索をお試しください。"
+
+#: template-parts/content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "検索キーワードに一致するものが見つかりませんでした。 別のキーワードで試してみてください。"
+
+#. Translators: the link to making a new post.
+#: template-parts/content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか？<a href=\"%1$s\">ここから始めましょう</a>。"
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#: comments.php:33 comments.php:51
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント &rarr;"
+
+#: comments.php:32 comments.php:50
+msgid "&larr; Older Comments"
+msgstr "&larr; 過去のコメント"
+
+#: comments.php:31 comments.php:49
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:27
+msgid "Comments"
+msgstr "コメント"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "こちらには何もありません。検索をお試しください。"
+
+#. Author URI of the plugin/theme
+msgid "http://eichefam.net/"
+msgstr "http://eichefam.net/"
+
+#. Author of the plugin/theme
+msgid "Paul Eiche"
+msgstr "Paul Eiche"
+
+#. Theme URI of the plugin/theme
+msgid "http://eichefam.net/projects/cover"
+msgstr "http://eichefam.net/projects/cover"
